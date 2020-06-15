@@ -1,0 +1,109 @@
+
+body{
+    height: 97vh;
+    /* border: 2px solid black; */
+    background-image: linear-gradient(to right,rgb(208, 178, 209), rgb(236, 125, 143))
+
+}
+
+#form-container{
+    width: 400px;
+    height: 60%;
+    background-color: white;
+    margin: auto; 
+    margin-top: 15vh;
+    display: flex;
+    flex-direction:coloumn;
+    border: 0.2px solid white;
+    /* justify-content: space-around;
+    align-items: center; */
+    flex-wrap: wrap;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 0px rgb(12, 12, 12);
+    background-color: rgb(20, 13, 31);
+    color: white;
+}
+
+h2{
+    /* display: block; */
+    /* float: left; */
+    /* border : 1px solid black; */
+    /* margin: 1rem; */
+    text-align: center;
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(107, 11, 75);
+    padding: 1.2rem;
+    border-bottom: 0.2px solid white;
+}
+
+form{
+    /* border: 1px solid white; */
+    height: 70%;
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+label{
+    font-size:1.4rem;
+    font-weight: 400;
+    line-height: 0;
+}
+
+#date-picker{
+    height: 40px;
+    width: 150px;
+    color: rgb(85, 74, 74);
+    border: 2px solid rgb(77, 72, 72); 
+    border-radius:25px;
+    padding: 1rem;
+    width: 200px;
+    font-size: 1.2rem;
+    margin-top:0.5rem ;
+   outline: none;
+}
+
+#date-picker:hover{
+    box-shadow: 0px 0px 10px white;
+}
+
+button{
+    height: 50px;
+    width: 140px;
+    background-color: rgb(107, 11, 75);
+    border:none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 30px;
+    outline: none;
+}
+
+button:hover{
+    box-shadow: 0px 0px 10px 10px rgb(73, 67, 67);
+}
+
+#image-container{
+    margin-top: 2rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#image-container img{
+    margin:1rem;
+    height: 200px;
+    width: 200px;
+}
